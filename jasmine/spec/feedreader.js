@@ -54,7 +54,7 @@ $(function() {
         expect(feedName.length).not.toBe(0);
       });
    });
-});
+
     /* TODO: Write a new test suite named "The menu" */
 
         /* TODO: Write a test that ensures the menu element is
@@ -145,6 +145,8 @@ $(function() {
                 expect(initFeedSelection).not.toBe(newFeedSelection);
                 done();
               });
-            });        
+            });  
+    });
 
 });
+    
